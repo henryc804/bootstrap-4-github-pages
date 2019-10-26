@@ -13,18 +13,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Bootstrap 4 Github Pages
-email: ""
+title: Henry Cheung
+email: henryc@mit.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  A Bootstrap 4 start up project for Jekyll and Github Pages
+  Check out the things I've made on this site. Contact me if there's anything
+  cool you want to talk about.
 #baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://cheunghenry.com" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  henryc804
 #twitter_username: jekyllrb
-#github_username:  jekyll
 
-repository: "nicolas-van/bootstrap-4-github-pages"
+repository: "henryc/bootstrap-4-github-pages"
 
 # Build settings
+markdown: kramdown
+incremental: false  # Only re-builds parts of site that have changed,
+                    #   experimental so may break site...use at own risk
+profile: true   # creates a Liquid profile in order to identify bottlenecks
+strict_front_matter: true   # causes build fail if YAML front matter is wrong
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -40,3 +46,4 @@ exclude:
   - Gemfile.lock
   - node_modules
   - update_boostrap.sh
+  - README.md

@@ -1,0 +1,63 @@
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    {% for project in site.data.works %}
+    <!-- Portfolio Modal {{ project.order }} -->
+    <div class="portfolio-modal modal fade" id="{{ project.id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>{{ project.name }}</h2>
+
+                                {% if project.name == "Multi-Sensor Array" %}
+                                  {% include_relative projects/SensorArray.html %}
+                                {% elsif project.name == "6.334 Project" %}
+                                  {% include_relative projects/334Project.html %}
+                                {% elsif project.name == "6.302 Project" %}
+                                  {% include_relative projects/302Project.html %}
+                                {% elsif project.name == "301 Project" %}
+                                  {% include_relative projects/301Project.html %}
+                                {% elsif project.name == "115 Project" %}
+                                  {% include_relative projects/115Project.html %}
+                                {% elsif project.name == "101 Project" %}
+                                  {% include_relative projects/101Project.html %}
+                                {% elsif project.name == "MakerLodge" %}
+                                  {% include_relative projects/MakerLodge.html %}
+                                {% elsif project.name == "Gameblox" %}
+                                  {% include_relative projects/Gameblox.html %}
+                                {% elsif project.name == "Battlecode" %}
+                                  {% include_relative projects/Battlecode.html %}
+                                {% elsif project.name == "IAP Radar Course" %}
+                                  {% include_relative projects/IAPRadarCourse.html %}
+                                {% elsif project.name == "Course Catalog Searcher" %}
+                                  {% include_relative projects/CourseCatalogSearcher.html %}
+                                {% elsif project.name == "Loro" %}
+                                  {% include_relative projects/Loro.html %}
+                                {% elsif project.name == "525 Project" %}
+                                  {% include_relative projects/525Project.html %}
+                                {% endif %}
+
+                                <ul class="list-inline">
+                                    <li>Date: {{ project.date }}</li>
+                                    <li><a href="{{ project.web }}">{{ project.group }}</a></li>
+                                    <li>Category: {{ project.category }}</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}

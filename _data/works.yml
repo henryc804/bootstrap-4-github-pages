@@ -1,0 +1,142 @@
+- order: 001
+  isFrontPage: true
+  name: "Multi-Sensor Array"
+  category: "Research"
+  date: "Spring 2018"
+  group: "Conformable Decoders - MIT Media Lab"
+  web: "www.conformabledecoders.media.mit.edu"
+  photo: "main.png"
+  img-alt: "A flexible PCB design for an array of nodes, with each node populated by several different sensors"
+  id: "portfolioModal01"
+
+- order: 001
+  isFrontPage: true
+  name: "Simple Buck Converter"
+  category: "Project"
+  date: "Spring 2018"
+  group: "6.334 with Professor Perrault"
+  web: ""
+  photo: "main.png"
+  img-alt: "A simple buck converter design, with a second order LC input filter"
+  id: "portfolioModal02"
+
+- order: 001
+  isFrontPage: true
+  name: "Feedback Practice"
+  category: "Project"
+  date: "Spring 2018"
+  group: "6.320 with Professor White"
+  web: ""
+  photo: "main.jpg"
+  img-alt: "A two propeller controls system with a rotating axis in the middle of it"
+  id: "portfolioModal03"
+
+- order: 001
+  isFrontPage: true
+  name: "Temperature Sensor Circuit"
+  category: "Project"
+  date: "Fall 2017"
+  group: "6.301 with Professor Lee"
+  web: ""
+  photo: "main.jpg"
+  img-alt: "A temperature sensor with a PTAT current source and an analog to digital converter"
+  id: "portfolioModal04"
+
+- order: 001
+  isFrontPage: true
+  name: "Crappy Quadruped"
+  category: "Project"
+  date: "Spring 2017"
+  group: "6.115 with Professor Leeb"
+  web: ""
+  photo: "main.jpg"
+  img-alt: "A poorly designed quadruped, built by yours truly"
+  id: "portfolioModal05"
+
+- order: 001
+  isFrontPage: true
+  name: "Laser Harp"
+  category: "Project"
+  date: "Spring 2017"
+  group: "6.101 with Gim Hom"
+  web: ""
+  photo: "main.jpg"
+  img-alt: "A flexible PCB design for an array of nodes, with each node populated by several different sensors"
+  id: "portfolioModal06"
+
+- order: 001
+  isFrontPage: true
+  name: "MakerLodge Electronics Training Design"
+  category: "Teaching"
+  date: "Fall 2017 till present"
+  group: "MIT Project Manus"
+  web: "makerlodge.mit.edu"
+  photo: "main.jpg"
+  img-alt: "The prototype speaker system that I built for the electronics training"
+  id: "portfolioModal07"
+
+- order: 001
+  isFrontPage: true
+  name: "Gameblox"
+  category: "Research"
+  date: "Spring 2016 till Winter 2017"
+  group: "STEP Lab"
+  web: "gameblox.org"
+  photo: "main.png"
+  img-alt: "The user interface for the block programming system that I built a translation engine for"
+  id: "portfolioModal08"
+
+- order: 001
+  isFrontPage: true
+  name: "Battlecode"
+  category: "Fun Times"
+  date: "Winter 2016"
+  group: ""
+  web: ""
+  photo: "main.png"
+  img-alt: "The OG team on stage. Props to my teammates, who carried the team"
+  id: "portfolioModal09"
+
+- order: 001
+  isFrontPage: true
+  name: "Build a Small Radar"
+  category: "Fun Times"
+  date: "Winter 2018"
+  group: ""
+  web: ""
+  photo: "main.jpg"
+  img-alt: "A small radar circuit implemented for a SAR sweep"
+  id: "portfolioModal10"
+
+- order: 001
+  isFrontPage: true
+  name: "Course Catalog Searcher"
+  category: "Fun Times"
+  date: "Summer 2016"
+  group: ""
+  web: ""
+  photo: "main.png"
+  img-alt: "The user interface for the MIT Course Catalog searcher application"
+  id: "portfolioModal11"
+
+- order: 001
+  isFrontPage: true
+  name: "Loro"
+  category: "Internship"
+  date: "Summer 2018"
+  group: "Loro at Harvard iLab"
+  web: ""
+  photo: "main.jpg"
+  img-alt: "An assitive camera system"
+  id: "portfolioModal12"
+
+- order: 001
+  isFrontPage: true
+  name: "Business Card"
+  category: "Fun Times"
+  date: "Fall 2018"
+  group: "Me, myself, and I"
+  web: ""
+  photo: "main.png"
+  img-alt: "A business card implemented with a persistence-of-vision microcontroller design on a printed circuit board"
+  id: "portfolioModal13"

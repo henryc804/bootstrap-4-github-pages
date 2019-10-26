@@ -1,0 +1,26 @@
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+  <div class="container">
+    <div class="card-columns">
+
+      {% for project in site.data.works %} {% if project.isFrontPage %}
+      <div class="card">
+          <img class="card-img-top img-fluid" src="//placehold.it/800x400" alt="Card image cap">
+          <div class="card-body">
+              <h4 class="card-title">{{ project.name }}</h4>
+
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#{{ project.id }}">
+                Read More
+              </button>
+
+
+              <p class="card-text">{{ project.category }}</p>
+              <p class="card-text"><small class="text-muted">{{ project.img-alt }}</small></p>
+          </div>
+      </div>
+      {% endif %} {% endfor %}
+
+    </div>
+
+  </div>
+</section>
